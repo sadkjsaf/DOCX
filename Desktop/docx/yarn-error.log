@@ -1,0 +1,43 @@
+Arguments: 
+  C:\Program Files\nodejs\node.exe D:\nodejs\node_global\node_modules\yarn\bin\yarn.js add --dev vitepress
+
+PATH: 
+  C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\Java\jdk1.8.0_201\bin;C:\Program Files\nodejs\;C:\Program Files (x86)\NetSarang\Xshell 7\;C:\Program Files (x86)\NetSarang\Xftp 7\;C:\Program Files\Microsoft VS Code\bin;C:\Program Files\VisualSVN Server\bin;C:\Users\HI\AppData\Local\Programs\Python\Python311;C:\Users\HI\AppData\Local\Programs\Python\Python311\Scripts;C:\Program Files\nodejs;C:\Program Files\Redis;C:\Program Files\TortoiseSVN\bin;C:\apache-maven-3.9.3\bin;C:\Program Files\Bandizip\;C:\Program Files\Git\cmd;C:\Program Files (x86)\GitExtensions\;C:\Program Files\dotnet\;D:\nodejs\node_global;D:\nodejs\node_global\node_modules\hexo-cli\bin;C:\Users\HI\AppData\Local\Microsoft\WindowsApps;C:\Users\HI\AppData\Roaming\npm;C:\Users\HI\AppData\Local\Pandoc\
+
+Yarn version: 
+  1.22.19
+
+Node version: 
+  16.16.0
+
+Platform: 
+  win32 x64
+
+Trace: 
+  SyntaxError: C:\Users\HI\Desktop\docx\package.json: Unexpected string in JSON at position 85
+      at JSON.parse (<anonymous>)
+      at D:\nodejs\node_global\node_modules\yarn\lib\cli.js:1629:59
+      at Generator.next (<anonymous>)
+      at step (D:\nodejs\node_global\node_modules\yarn\lib\cli.js:310:30)
+      at D:\nodejs\node_global\node_modules\yarn\lib\cli.js:321:13
+
+npm manifest: 
+  {
+    "name": "docx",
+    "version": "1.0.0",
+    "main": "index.js",
+    "license": "MIT"
+    "scripts": {
+      "docx:dev": "vitepress dev docx",
+  
+      "docx:build": "vitepress build docx",
+  
+      "docx:serve": "vitepress serve docx"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
